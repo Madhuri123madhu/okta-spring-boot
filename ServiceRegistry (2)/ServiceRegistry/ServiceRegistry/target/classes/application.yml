@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: API-GATEWAY
+    
+  spring:
+       application:
+        name: READ
+
+
+       spring:
+        application:
+         name:delete
+euraka:
+  instance:
+    hostname: localhost
+    
+  client:
+   register-with-eureka: false
+   fetch-registry: false 		    
+server:
+  port: 8761 
+  
